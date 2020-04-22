@@ -15,7 +15,9 @@ namespace TwoFactAuthentication
     {
         public Startup(IConfiguration configuration)
         {
+            Console.WriteLine("App started from feature");
             Configuration = configuration;
+            Console.WriteLine("App started from feature");
         }
 
         public IConfiguration Configuration { get; }
